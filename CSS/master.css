@@ -359,7 +359,6 @@ input{
     }
 }
 
-
 @media (max-width:750px){
     .header{
         flex-direction: column;
