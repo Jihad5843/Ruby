@@ -365,7 +365,10 @@ input{
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
-        width: 100%;
+        
+    }
+    .index .header{
+        width: 120%;
     }
 
     .nav-list{
@@ -386,6 +389,7 @@ input{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding-left: 3rem;
     }
 
     .offers{
@@ -394,15 +398,22 @@ input{
     }
 
     .offers div img{
-        max-width: 100%;
+        max-width: 120%;
         height: auto;
     }
 
     .footer{
         text-align: center;
         padding: 1rem;
-        width: 100%;
+       
         
     }
-}
 
+    .index .footer{
+         width: 120%;
+    }
+    pre{
+        padding-left:1.5rem ;
+    }
+    
+}
